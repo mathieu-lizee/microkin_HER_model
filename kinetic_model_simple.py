@@ -301,7 +301,7 @@ def plot_analysis(params,eta_min=1e-2,
     (eta_tab,Ea_tab,A_tab,eta_turnover)=plot_compensation(ax5,params, etas=np.linspace(eta_min,eta_max,2*N_eta))
     plot_DRC(ax7,params,etas=np.linspace(eta_min,eta_max,N_eta))
     subplots_adjust(wspace=0.6,hspace=0.4)
-    savefig(f'Figures/Fig_mass_transport_model'+titre+'.pdf',bbox_inches='tight')
+    savefig(f'Fig_mass_transport_model'+titre+'.pdf',bbox_inches='tight')
     show()
     return(eta_tab,current_tab,theta_tab,Ea_tab,A_tab)
 
