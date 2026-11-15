@@ -269,7 +269,7 @@ def plot_DRC(ax,params, etas=np.linspace(0.0,0.3,5)):
         degree_k1_0, degree_km1_0, degree_k2, degree_km2,drc_binding = degrees_of_rate_control({**params, 'eta': eta})
         DRC1[eta], DRCm1[eta], DRC2[eta], DRCm2[eta] = degree_k1_0, degree_km1_0, degree_k2, degree_km2
     ax.plot(etas, [DRC1[eta] for eta in etas], label=r"$X_{1}$",color='r')
-    ax.plot(etas, [DRC2[eta] for eta in etas], label=r"$X_{2}$",color='steelblue')
+    if(params['N_steps']==2):ax.plot(etas, [DRC2[eta] for eta in etas], label=r"$X_{2}$",color='steelblue')
     ax.set_xlabel("Overpotential η [V]");ax.set_ylabel(r"Degree of Rate Control $X_i$")
     ax.legend(fontsize=8,ncol=1)
 
