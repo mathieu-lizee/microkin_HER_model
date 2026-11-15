@@ -7,5 +7,4 @@ Lizée, M., Silva Olaya, A. R., Druce, J., Cuenya, B. R., & Oener, S. Z. (2026).
 
 https://doi.org/10.1039/d5fd00127g
 
-
-The notebook gives simple examples of how to use the model to predict experimental signatures.
+The notebook gives simple examples of how to use the model to predict experimental signatures. To run it, download the notebook and the model file kinetic_model_simple.py in the same directory. This should work.
