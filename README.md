@@ -1,5 +1,5 @@
 # microkin_HER_model
-Microkinetic model to simulate the potential-dependent differential Tafel slope, Arrhenius parameters and degrees of rate control in single and two steps electrochemical mechanisms. It is especially suited to understand experimental results, not necessary to get a fully quantitative fit of microscopic parameters. The model accounts for mass transport limitations due to reactant depletion in typical electrochemical setups such as Rotational Disk Electrodes and Ultra Micro Electrodes.
+We present a light microkinetic model to calculate the potential-dependent differential Tafel slope, Arrhenius parameters and degrees of rate control in single and two steps electrochemical mechanisms. The model accounts for mass transport limitations due to reactant depletion in typical electrochemical setups such as Rotational Disk Electrodes and Ultra Micro Electrodes. It is especially suited to understand the experimental signatures of multistep electrocatalyitic reactions in realistic mass transport conditions. 
 
 This is an upgraded version of the model presented in Ref [1]. Please cite if you use the model.
 
